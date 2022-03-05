@@ -28,3 +28,13 @@ document.write ("Profits this Week: " + "$" + result + ". "); // Displayed text 
 
 var greenText = "<span style='color:#016712 '>super duper good</span>"; // Names a variable and assigns it value of a string in green font.
 document.write("So business has been going " + greenText + "!"); // Displays string added with variable.
+
+function translateES() {
+    document.getElementById('spanish').innerHTML=('Hola, ahora estoy diferente.')
+};
+
+// Change font color of Variable //
+
+var bookTitle = "The Wonderous Adventures of Manny the Mouse";
+
+

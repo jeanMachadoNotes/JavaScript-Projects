@@ -7,8 +7,17 @@
     </head>
 
     <body>
+        
+        <p> Below is a button that changes something!, Click to find out!</p>
+        <button onclick= "translateES()"> Click for Spanish </button>
+        <p id="spanish"> I will change! </p>
 
+        <h2 id="blueText" onclick="colorChange()"> I am feeling a little blue, click me .</h2>
 
-
+        <script>
+            function colorChange() {
+                document.getElementById('blueText').style.color = "blue";
+            }
+        </script>
     </body>
 </html>
