@@ -1,5 +1,5 @@
 
-/*
+
 var student = "Sammy Jones"; // Declared variable 'student', assigned value 'Sammy Jones'
 
 var book = { // Declared object 'book' with dictionary
@@ -63,7 +63,7 @@ console.log("The password is 12994"); //Displays in Console of Browser
 document.write( (23+52) == 75); // Checks for equality on both sides of '==' sign
 document.write( 44 == 47 - 2 ); // Checks for equality on both sides of '==' sign
 
-*/
+
 
 // Triple Equal Sign Examples
 
