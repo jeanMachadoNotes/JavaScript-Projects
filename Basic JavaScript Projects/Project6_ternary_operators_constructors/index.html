@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chartset="utf-8">
+        <title> Project6 Ternary Operators / Constructors </title>
+        <script src="./JS/main.js"></script>
+    </head>
+    <body>
+        <h3>Ride Height Checker</h3>
+        <p>Riders must be at least 52 centimeters tall to ride.</p>
+        <input type="text" id="Height" value="52"/>
+        <button onclick="Ride_Function()">Click me</button>
+        <p id="Ride"></p>
+
+        <br>
+
+        <h3>Vote Age Checker</h3>
+        <p> You must be 18 years or older to vote.</p>
+        <input id="Age" type="text" value="type your age here"/>
+        <button type="button" onclick="voteAge_Function()">Verify</button>
+        <p>Verification Result:</p>
+        <p id="Vote"></p>
+
+        <br>
+
+        <h3>Vehicle Info:</h3>
+        <button onclick="myFunction()">Click Here </button>
+        <p id="Keywords_and_Constructors"></p>
+
+        <br>
+
+        <h3>Next Object</h3>
+        <button onclick="classFunct()">Click here</button>
+        <p id="New_and_This"></p>
+
+        <h3> Nested Function </h3>
+        <p id="Nested_Function" onclick="myText()"> Click me</p>
+
+        <p id="Nested_Function2" onclick="myBasic_Function()">Click me</p>
+
+        <p id="Nested_Function3" onclick="compareFunct()">Click me</p>
+
+        <br>
+
+        <h2> Project 6  Challenge </h2>
+
+        <h3>Should you Charge Up?</h3>
+        <p> Check whether its time to charge up, <br> It's recommended not charge past 80%.</p>
+        <input id="Device" type="text" value="Whats your Device Name"> <br><br>
+        <input id="Charge" type="text" value="Input current charge level"> <br> <br>
+        <button type="submit" onclick="chargeCheck()" value="submit">Submit</button>
+        <p id="charge_status">Status Message</p>
+
+        <br>
+        
+        <h3>Shop BackPacks</h3>
+        <p> My favorite backpack review: </p>
+        <p id="disBP"></p>
+        <button id="bp1" onclick="shopBP()">Click to Read</button>
+        <p id="disBP"></p>
+
+        <br>
+
+        <h3>Phone Chooser</h3>
+        <p> Select you phone choice </p>
+
+        <input id="Apple" onclick="phoneChoice()" type="radio" value="iPhone">
+        <label>Apple iPhone </label> <br>
+
+        <p id="result"></p>
+
+
+    </body>
+</html>
