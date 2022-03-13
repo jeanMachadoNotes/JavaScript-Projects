@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="utf-8">
+        <title> Project7 Scope and Time Function</title>
+        <script src="./JS/main.js"></script>
+    </head>
+    <body>
+        <h3> What time is it?</h3>
+        <p id="p1" onclick="nowDate()">Click for Response</p>
+
+        <br>
+        
+        <h3> Shertz Car Rental </h3>
+        <p> Fill in your Age below to start</p>
+        <input id="user_input" type="text" value=""/> <!-- Leaving 'value' attribute blank, keeps box empty of text-->
+        <button id="button" onclick="ageVerify()">Submit</button>
+        <p id="response"></p>
+
+        <br>
+
+        <h3> Time Check </h3>
+        <p id="Time_of_day"></p>
+        <button onclick="Time_function()">Click here to get the time</button>
+
+        <br> <br>
+
+        <h3> Battery Check </h3>
+        <p> Input charge level below </p>
+        <input id="bat_input" type="text" value=""/>
+        <button onclick="batCheck()">Click here</button>
+        <p id="battery_status"></p>
+
+
+    </body>
+</html>
