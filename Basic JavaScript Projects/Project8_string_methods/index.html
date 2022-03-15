@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chartset="utf-8">
+        <title>Project8 String Methods</title>
+        <script src="./JS/main.js"></script>
+        <style>
+            span {
+                font-weight: 600;
+                font-style: italic;
+                color: crimson;
+            }
+        </style>
+    </head>
+    <body onload = "startNumber()">
+
+        <h3>Concat Method</h3>
+        <h3>New Email</h3>
+        <h4>Subject: Birthday Party Saturday</h4>
+        <p id="full_string">Hi Tom, as you know this Saturday is Elizabeths 3rd birthday, can you...</p>
+        <p onclick="concatSent()">Click to see full message</p>
+
+        <br>
+
+        <h3>Slice Method</h3>
+        <h3>Your new Phone Info</h3>
+        <p></p> Recent purchase: Samsung S22 Ultra</p>
+        <p id="slice1"></p>
+        <p id="slice2"></p>
+        <button onclick="sliceFunct()">Click for Product Info</button>
+        
+        <br> <br>
+
+        <h3>toUppercase Method</h3>
+        <h4>Emphasize a Word</h4>
+        <p> Type in a word you'd like to emphasize</p>
+        <input id ="user_word" type="text" value=""/> <br> <br>
+        <button onclick="caps()">Click Me</button>
+        <p id="result">Result: </p>
+
+        <br>
+
+        <h3>Search Method</h3>
+        <h4> Find Waldo</h4>
+        <p>See if Waldo is on the list of guests.</p>
+        <h4> Wedding Guest List</h4>
+        <p id="guests">Bernie, Ralph, Willard, Walt, Winston, Wilford, Werner, Washington <br>
+            Jan, Warner, Steven, Wallace, Waltson, Finneas, Wes, Brittany <br>
+            Julie, Archie, Waldo, Billie, Witney, Charlie, Beth, Sarah</p>
+        <button onclick="findMe()">Search</button>
+        <p id="search_result">Result of Search</p>
+
+        <br>
+
+        <h3>toString Method</h3>
+        <h3 id = "txt">Fix Print Error</h3>
+        <p id ="error">Error: The printer only can print text, numbers need to be converted</p>
+        <p id="input">" Address provided: <span id="t1">1201</span> N West Street, Kentucky <span id="t2">65012</span> "</p> 
+        <p id="message"> Please convert values </p>
+        <button onclick="convertText()">Click to Convert</button>
+
+        <br> <br>
+
+        <h3>toPrecision Method</h3>
+        <h3> Shorten the number </h3>
+        <p>Click to shorten the decimal</p>
+        <p id="dec_num"></p>
+        <button onclick="shortFunct()">Go</button>
+
+        <br> <br>
+
+        <h3>toFixed Method</h3>
+        <h3>Round and Convert to String</h3>
+        <p> We take our company sales and convert it</p>
+        <p id="start_num"></p>
+        <button onclick="roundtoText()">Check and Convert</button>
+        <p id="end_num"></p>
+
+        <br> <br>
+
+        <h3>Valueof Method</h3>
+        <h3> Return original value of string </h3>
+        <h3>Solve the mystery</h3>
+        <p>A package was discovered containing a secret military file talking about 'OpOrigami'</p>
+        <p>Our new advanced machine can decipher it, click below to activate</p>
+        <button onclick="decipherFunct()">Run</button>
+        <p id="decipher_res"></p>
+
+
+    </body>
+</html>
