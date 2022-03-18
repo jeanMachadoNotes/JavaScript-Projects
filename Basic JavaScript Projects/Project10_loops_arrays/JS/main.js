@@ -215,14 +215,14 @@ function travelFunct() {
     var city = "";
     //To display each element of the array in webpage.
     for (counter = 0; counter < eurocity.length; counter++) {
-        city += eurocity[counter] + ", <br>"; 
+        city += eurocity[counter] + ", <br>"; //Assigns to variable city name at index position.
     }
     document.getElementById("citylist").innerHTML = city;
 }
 
 // Let Keyword
 
-let backpack = {
+let backpack = { //Declaring an object with 'let' keyword, able to have block-scope
     material: "canvas",
     pockets: 4,
     zipper: "YKK3",
@@ -230,6 +230,6 @@ let backpack = {
     size: 31
 }
 
-function bpSpecs() {
+function bpSpecs() { //Declared function which inputs concat of object values into HTML element.
     document.getElementById("bplist").innerHTML = "The backpack is made of " + backpack.material + " with " + backpack.pockets + " pockets. It is " + backpack.size
 + " litters, perfect for " + backpack.type + "."}
