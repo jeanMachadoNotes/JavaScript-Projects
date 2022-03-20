@@ -18,6 +18,17 @@ function countTen() { //Declaring a function
     document.getElementById("Loop").innerHTML = number; //Inserts value of 'number' variable resulting from While Loops. Reason this phrase can output is because 'number' is local to entire function, so can access.
 }
 
+///////// Example 2 ////////
+
+function while_Function() {
+    let battery = 15;
+    while (battery < 80) { //Runs code 'while' battery less than 80%
+        document.getElementById("message").innerHTML += "Battery at: " + battery +"% keep charging <br>";
+        battery+= 15; //Increment by 15
+    }
+    document.getElementById("message").innerHTML += "Battery at " + battery + "%, You are good to unplug" //Displays when battery greater than 80%
+}
+
 // String.Length
 
 function nameFunct() {
@@ -54,6 +65,20 @@ function array_Function() { //Declared a function
      "<br> He can be reached at " + client_1[4] + ".";
 }
 
+///////// Example 2 ////////
+
+const fav_film = []; //Declared an array object
+fav_film[0] = "The Godfather "; //Object index and value
+fav_film[1] = "The Pianist ";
+fav_film[2] = "Some Kind of Wonderful ";
+fav_film[3] = "Argo ";
+fav_film[4] = "Meet Joe Black ";
+
+function array_Function2() { 
+    document.getElementById("item").innerHTML = fav_film[4]; //Input into HTML referenced value of element
+
+}
+
 // Const Keyword - A reserved word which specifies a spot in memory where the value there does not change over time.
 
 function constant_function() {
@@ -71,6 +96,25 @@ function constant_function() {
     " eyes, <br> a woman so bright. <br>" + person.fname + 
     " was her name, <br> a youthful " + person.build + " light."; 
 }
+
+// Example 2 //
+
+function constant_function2() {//Declared a function.
+    const guard = { //Declared an object const with KVP's
+        first_name: "John ",
+        last_name: "Snow ",
+        post: "Steward ",
+        senior: "Lord Commander Mormont ",
+        location: "The Wall "
+    }
+    guard.weapon = "Dragon Glass Blade "; //Guard now has a weapon
+    guard.senior = "Master Aemon "; //Reassigned guard to new master
+
+    document.getElementById("Constant2").innerHTML = "The guard known as " + guard.first_name + guard.last_name + "is a " + guard.post + "for " + guard.senior + "who was awarded a " + guard.weapon; //Concat str to put into HTML element.
+}
+
+
+
 
 // Let Keyword 
 
@@ -91,6 +135,23 @@ function let_Funct() { //Declared a function
     
 }
 
+
+///////// Example 2 ////////
+
+var z = 10; //Declared Global Variable
+function let_Funct2() {
+    var age = 5; //Declared local variable, function scope'd
+    let name = "Jane "; //Declared local variable, function scope'd
+    while (age < z) {
+        let ride = "Space Mountain " //Declared local variable with block scope.
+        document.getElementById("letkw").innerHTML += name + "at " + age + " you are not old enough to ride " + ride + "<br>";
+        age++ //Increments
+    }
+    /*document.getElementById("letkw").innerHTML = name + "you can ride " + ride;*/ //Wont display, bcz utilizing var 'ride' which has block scope.
+    document.getElementById("letkw").innerHTML += name + "you can ride Space Mountain"; //Fix 
+
+}
+
 // Return Statement
 
 function testReturn() { //Declared a function
@@ -101,6 +162,15 @@ function testReturn() { //Declared a function
         user_game = document.getElementById("vidgame").value; //Variable assigned value of user input from HTML
         return "Nice one! " + user_game + " is a great title for sure."; //Return concat str to where function called, also stops function from running further.
 
+    }
+}
+
+// Example 2 //
+function return_function() {
+    document.getElementById('return').innerHTML = return_fullname("Tyrion ", "Lannister "); //Calls function, provided arguments, inserts result into HTML
+
+    function return_fullname(fname, lname) { //Function definition
+        return fname + lname; //Give this value back to where it was called
     }
 }
 
@@ -151,6 +221,28 @@ let home = { //Declared an object
 
 document.getElementById("sale").innerHTML = home.sell(); //Invoke object methods, insert result into HTML element
 
+
+///////// Example 2 ////////
+
+//Declared a function
+function function_Object() {
+    let student = { //Declared an object, data structure to store different data types
+        name: "Bobby ", //string data type
+        age: 18, //number data type
+        gpa: 4.0, //number data type
+        graduating: true, //boolean data type
+        graduate: function () { //function data type
+            return this.name + "has obtained a " + this.gpa + " grade point average. So it is " + this.graduating + " that he will be graduating";
+            
+        }
+    } 
+    document.getElementById("obj2").innerHTML = student.graduate();
+}
+
+
+
+
+
 //Break Statement
 
 function loopFunct() { //Declared function
@@ -166,6 +258,16 @@ function loopFunct() { //Declared function
     document.getElementById("loop").innerHTML = text; //Inserts variable's value into target HTML
 }
 
+///////// Example 2 ////////
+
+function break_function() { 
+    for (time = 8; time < 18; time++) { // Continued below code for specified amount of time.
+        if (time === 12) { break } //Breaks loop at 12 "lunch time"
+        document.getElementById("work").innerHTML += "It is " + time + " so keep working <br>"; //Output message each iteration
+    }
+}
+
+
 //Continue Statement
 function loop2Funct() { //Declared variable
     let b = 0; //Declared counter variable with value
@@ -175,6 +277,16 @@ function loop2Funct() { //Declared variable
             continue //Skips over current iteration, starts loop at top. Almost say, 'start again'
         }
         document.getElementById("loop2").innerHTML += " You rock: " + b + "<br>"; //Inserts concat string into HTML target element.
+    }
+}
+
+///////// Example 2 ////////
+
+function continue_Function() {
+    for (time = 8; time < 18; time++) {
+        if ( time == 12 ) { continue } //Break iteration at 12 "lunch"
+        if ( time == 15 ) { continue } //Breaks iteration at 3 "snack"
+        document.getElementById("work2").innerHTML += "It is " + time + " so keep working <br>"; //Output message each iteration
     }
 }
 
