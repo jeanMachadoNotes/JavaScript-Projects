@@ -35,8 +35,12 @@ A TicTacToe variant where you aim to link 3 of your fellow knights to surround t
 
 Built utilizing HTML, CSS and JavaScript
 
-## [Portfolio Website](https://github.com/jeanMachadoNotes/Portfolio)
+## [Portfolio Website](https://github.com/jeanMachadoNotes/Portfolio/tree/main/portfolio_website)
 
-Here you'll find the layout and structure to my very own Portfolio website.
+Built very own Portfolio site.
+
+![portfolio-2-2](https://user-images.githubusercontent.com/98543446/167224922-71947764-348a-444c-9e13-787dafbd0320.png)
+
+
 
 Languages used are: HTML5, CSS3, JS
