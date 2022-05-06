@@ -5,7 +5,7 @@ This repository contains projects utilizing JavaScript
 ## Some projects
 - [Calculator Project](#calculator-project)
 - [Pizza Planet Menu](#pizza-planet-project)
-- [Battle of the Knights Game](#tictactoe)
+- [Battle of the Knights Game](#battle-of-the-knights-game)
 - [Portfolio Site](#portfolio-website)
 
 
@@ -26,9 +26,7 @@ It will take in selected options and output a total cost underneath with order s
 
 Built using HTML, CSS, and JavaScript.
 
-## [TicTacToe](https://github.com/jeanMachadoNotes/TicTacToe)
-
-Battle of the Knights
+## [Battle of the Knights Game](https://github.com/jeanMachadoNotes/TicTacToe)
 
 A TicTacToe variant where you aim to link 3 of your fellow knights to surround the enemy 'Dark' Knight.
 
