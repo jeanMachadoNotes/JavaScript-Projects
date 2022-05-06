@@ -35,7 +35,7 @@ A TicTacToe variant where you aim to link 3 of your fellow knights to surround t
 
 Built utilizing HTML, CSS and JavaScript
 
-## [Portfolio Website](https://github.com/jeanMachadoNotes/Portfolio/portfolio_website)
+## [Portfolio Website](https://github.com/jeanMachadoNotes/Portfolio)
 
 Here you'll find the layout and structure to my very own Portfolio website.
 
