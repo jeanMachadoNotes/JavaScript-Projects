@@ -8,6 +8,7 @@ This repository contains projects utilizing JavaScript
 - [Battle of the Knights Game](#battle-of-the-knights-game)
 - [Portfolio Site](#portfolio-website)
 
+(click titles below to take you to project)
 
 ## [Calculator Project](https://github.com/jeanMachadoNotes/JavaScript-Projects/tree/main/Calculator_Project)
 
