@@ -44,7 +44,7 @@ Technologies: : HTML5, CSS3, JavaScript
 
 
 
-## [Portfolio Website](https://github.com/jeanMachadoNotes/Portfolio/tree/main/portfolio_website)
+## [Portfolio Website](https://github.com/jeanMachadoNotes/Portfolio)
 
 Built very own Portfolio site.
 
